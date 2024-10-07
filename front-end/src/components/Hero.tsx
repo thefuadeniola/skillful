@@ -34,7 +34,7 @@ const Hero = () => {
         <p className='pt-[31px] text-sm md:text-base satoshi tracking-wide text-white text-center font-extralight'>Skillful leverages blockchain technology to provide a transparent, decentralized way to validate your expertise.</p>
         <div className='flex flex-row items-center justify-between w-full md:w-[30%] bg-primary-black h-[6vh] round-2 mt-[3.5vw] combobox satoshi pl-4 relative'>
             <input className='text-white satoshi bg-transparent' placeholder='Enter Your E-mail'/>
-            <button className='bg-primary-green text-primary-black font-semibold round-2 h-full px-4'>Request Demo</button>
+            <button className='bg-primary-green text-primary-black font-semibold round-2 h-full px-4 text-sm md:text-base'>Request Demo</button>
             <img src={arrow1} className='absolute right-[-70px] top-[-20px]' />
             <img src={arrow2} className='absolute right-[-70px] top-[-10px]' />
 
